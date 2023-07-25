@@ -1,3 +1,3 @@
-This is the repository for the Physics-informed Neural Networks with Stan activation function.  
+This is the repository for the Physics-informed Neural Networks with Stan activation function. More comprehensive case studies will be added soon...  
 
 Cite this Paper - **Self-scalable Tanh (Stan): Faster Convergence and Better Generalization in Physics-informed Neural Networks** [https://doi.org/10.48550/arXiv.2204.12589] 
