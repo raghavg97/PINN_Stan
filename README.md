@@ -5,8 +5,8 @@ This is the repository for Physics-informed Neural Networks with Stan (Self-scal
 $Stan(x) = tanh(x) + \beta \times x \times tanh(x)$
 
 $\beta$ is a trainable neuron-wise parameter. 
-You can also find some other implementations like the [NVIDIA's](https://docs.nvidia.com/deeplearning/modulus/modulus-v2209/user_guide/theory/advanced_schemes.html).  Video shows the potential applications of PINN and to grab your attention (gotcha!)
-> Note: the code for generating this figure is not in the repository
+You can also find some other implementations like the [NVIDIA's](https://docs.nvidia.com/deeplearning/modulus/modulus-v2209/user_guide/theory/advanced_schemes.html). Video shows a potential application of PINN to grab your attention (gotcha!).
+> Note: the code for generating this figure is not in the repository.
 
 ![](https://github.com/raghavg97/PINN_Stan/blob/main/MP_3D_100resol.gif)
 
