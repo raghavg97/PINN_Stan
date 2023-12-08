@@ -36,5 +36,5 @@ You can also find some other implementations like the [NVIDIA's](https://docs.nv
 ![](https://github.com/raghavg97/PINN_Stan/blob/main/MP_3D_100resol.gif)
 
 
-R. Gnanasambandam, B. Shen, J. Chung, X. Yue and Z. Kong, "Self-scalable Tanh (Stan): Multi-Scale Solutions for Physics-Informed Neural Networks," in IEEE Transactions on Pattern Analysis and Machine Intelligence, doi: 10.1109/TPAMI.2023.3307688.
-*
+**R. Gnanasambandam, B. Shen, J. Chung, X. Yue and Z. Kong, "Self-scalable Tanh (Stan): Multi-Scale Solutions for Physics-Informed Neural Networks," in IEEE Transactions on Pattern Analysis and Machine Intelligence, doi: 10.1109/TPAMI.2023.3307688.**
+
