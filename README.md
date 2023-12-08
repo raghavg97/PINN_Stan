@@ -1,4 +1,4 @@
->This is the repository for Physics-informed Neural Networks with Stan (Self-scalable Tanh) activation function. 
+This is the repository for Physics-informed Neural Networks with Stan (Self-scalable Tanh) activation function. 
 
 $Stan(x) = tanh(x) + \beta \times x \times tanh(x)$
 
@@ -16,7 +16,8 @@ z = self.activation(x) #tanh
 z = z + self.beta[:,i]* x * z # i denotes the layer index 
 ```
 
-Please cite if you benefit from this work. [https://ieeexplore.ieee.org/document/10227556]. Note: **DO NOT use the Arxiv preprint version** of the article; there are several inaccuracies.  
+Please cite if you benefit from this work. [https://ieeexplore.ieee.org/document/10227556]. 
+>Note: **DO NOT use the Arxiv preprint version** of the article; there are several inaccuracies.  
 
 ```
 @article{gnanasambandam2023self,
