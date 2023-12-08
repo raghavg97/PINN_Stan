@@ -1,6 +1,6 @@
 This is the repository for Physics-informed Neural Networks with Stan (Self-scalable Tanh) activation function. The codes are not cleaned for usage yet. If you already have a PINN code and want to implement the activation function 
 
-$Stan(x) = tanh(x) + \beta*x*tanh(x)$
+$Stan(x) = tanh(x) + \beta * x * tanh(x)$
 
 Please cite if you benefit from this work. [https://ieeexplore.ieee.org/document/10227556]. Note: DO NOT use the Arxiv preprint version of the article, there are several inaccuracies.  
 
