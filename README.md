@@ -1,6 +1,6 @@
 # Self-scalable Tanh (Stan) Activation Function
 ## Applied to Physics-informed Neural Networks (PINN) 
-This is the repository for Physics-informed Neural Networks with Stan (Self-scalable Tanh) activation function. 
+This is the official repository for Physics-informed Neural Networks with Stan (Self-scalable Tanh) activation function. 
 
 $Stan(x) = tanh(x) + \beta \times x \times tanh(x)$
 
