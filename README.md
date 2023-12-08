@@ -4,14 +4,13 @@ This is the repository for Physics-informed Neural Networks with Stan (Self-scal
 
 $Stan(x) = tanh(x) + \beta \times x \times tanh(x)$
 
-$\beta$ is a trainable neuron-wise parameter. The codes are being cleaned for easy usage. Meanwhile, if you already have a PINN code and want to implement the activation function,
-
+$\beta$ is a trainable neuron-wise parameter. 
 You can also find some other implementations like the [NVIDIA's](https://docs.nvidia.com/deeplearning/modulus/modulus-v2209/user_guide/theory/advanced_schemes.html).  Video shows the potential applications of PINN and to grab your attention (gotcha!)
 > Note: the code for generating this figure is not in the repository
 
 ![](https://github.com/raghavg97/PINN_Stan/blob/main/MP_3D_100resol.gif)
 
-In Pytorch, if you have the activation function as $tanh$ you can simply modify it as follows
+The codes are being cleaned for easy usage. Meanwhile, if you already have a PINN code and want to implement the activation function, it should be straightforward. In Pytorch, if you have the activation function as $tanh$ you can simply modify it as follows
 ```
 #Initialization
 self.beta = Parameter(torch.ones((NN_width,len(layers)-2))) 
