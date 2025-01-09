@@ -10,7 +10,7 @@ You can also find some other implementations like the [NVIDIA's](https://docs.nv
 
 ![](https://github.com/raghavg97/PINN_Stan/blob/main/MP_3D_100resol.gif)
 
-The codes are being cleaned for easy usage. Meanwhile, if you already have a PINN code and want to implement the activation function, it should be straightforward. In PyTorch, if you have the activation function as $tanh$ you can simply modify it as follows
+The code are being cleaned for easy usage. Meanwhile, if you already have a PINN code and want to implement the activation function, it should be straightforward. In PyTorch, if you have the activation function as $tanh$ you can simply modify it as follows
 ```
 #Initialization
 self.beta = Parameter(torch.ones((NN_width,len(layers)-2))) 
