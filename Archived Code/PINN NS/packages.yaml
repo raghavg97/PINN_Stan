@@ -1,0 +1,7 @@
+name: raghav
+channels:
+  - anaconda
+  - esri
+  - conda-forge
+dependencies:
+  - python=3.9
